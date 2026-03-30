@@ -50,7 +50,7 @@ The game state that ```action``` receives is structured in the following way:
 3. Pot Amount
 4. Current Raise Amount
 5. Blind
-6. Active Player Index
+6. Active Player Index (0-indexed)
 7. Number of players
 8. Each player's stack
 9. Hand number - Maintains a count of how many hands have been dealt at the table.
